@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+    <title>Verify</title>
+    
+    <meta http-equiv=ÒContent-Style-TypeÓ content=Òtext/cssÓ/>
+    <link rel="stylesheet" href="shoppingCart.css" type="text/css" />
+    <script type="text/javascript" src="theScript.js">
+        
+    </script>
+
+</head> 
+<body onload="loadPageShipping()">
+    <div id="container">
+        
+        <div id="header">
+            <h1>Verify</h1>
+        </div>
+        
+        <noscript>Your browser does not support JavaScript!</noscript>
+        
+        <table id="verifyPage">
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemT"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemM"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemO"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemA"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemD"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemS"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><b>Subtotal</b></td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div id="subTotalShipping"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><b>Subtotal Tax</b></td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div id="subTotalTaxShipping"></div>
+                    </td>
+                </tr>
+                
+                
+                <tr>
+    
+                    <td colspan="2"><b>Total</b></td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div id="totalCostShipping"></div>
+                    </td>
+                </tr>
+                
+                
+        </table>
+        <form id="frmVerify" action="Home.html" name="frmVerify" onsubmit="return verify()">
+            <p><input type="submit" value="Verify" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="Back" name="btnBack" id="btnBack" onclick="window.history.back()" /></p>
+        </form>
+            
+
+        
+    </div>
+
+</body><!--Closes the body tag-->
+
+</html><!--Closes the webpage-->

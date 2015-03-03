@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+    <title> 
+        Credit Card Information
+    </title>
+    
+    <meta http-equiv=ÒContent-Style-TypeÓ content=Òtext/cssÓ/>
+    <link rel="stylesheet" href="shoppingCart.css" type="text/css" />
+    <script type="text/javascript" src="theScript.js"></script>
+
+</head> 
+<body onload="loadPageShipping()">
+    <div id="container">
+        <div id="content">
+            <div id="header">
+                <h1>Online Bobble Head Shop</h1>
+            </div>
+            <h2>Credit Card Information</h2>
+            <noscript>Your browser does not support JavaScript!</noscript>
+            <br />
+            
+            <form id="frmCreditCard" action="Verify.html" name="frmCreditCard" onsubmit="return validateCredit()">
+                Full Name on Credit Card:
+                            &nbsp;&nbsp;
+                            
+                            <input type="text" name="nameOnCard" size="15" onfocus="setBackground(this.id)" onblur="goBackToBackground(this.id)"/><br /><br />
+                Credit Card Type:
+                            <input type="radio" name="cardType" value="visa" /> Visa
+                            <input type="radio" name="cardType" value="master" /> Master Card
+                            <input type="radio" name="cardType" value="american" /> American Express
+                            <input type="radio" name="cardType" value="american" /> Discover <br />
+                Credit Card Number:
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="cardNum1" size="4" maxlength="4" onfocus="setBackground(this.id)" onblur="goBackToBackground(this.id)"/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="cardNum2" size="4" maxlength="4" onfocus="setBackground(this.id)" onblur="goBackToBackground(this.id)"/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="cardNum3" size="4" maxlength="4" onfocus="setBackground(this.id)" onblur="goBackToBackground(this.id)"/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="cardNum4" size="4" maxlength="4" onfocus="setBackground(this.id)" onblur="goBackToBackground(this.id)"/><br /><br />
+                            
+		<p><input type="submit" value="Submit" />&nbsp;&nbsp;
+		<input type="reset" value="Reset" />&nbsp;&nbsp;
+                <input type="button" value="Back" name="btnBack" id="btnBack" onclick="window.history.back()" /></p>
+                
+            </form>
+            
+            
+            
+        </div>
+    
+      <table id="creditPage">
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemT"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemM"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemO"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemA"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemD"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+                        <div id="itemS"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><b>Subtotal</b></td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div id="subTotalShipping"></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><b>Subtotal Tax</b></td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div id="subTotalTaxShipping"></div>
+                    </td>
+                </tr>
+                
+                
+                <tr>
+    
+                    <td colspan="2"><b>Total</b></td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div id="totalCostShipping"></div>
+                    </td>
+                </tr>
+                
+                
+            </table>
+            
+
+        
+        <div id="footer">
+            <p>
+                
+                DO NOT COPY WITHOUT PERMISSION
+                <!--XHTML Validator -->
+                <p id="footer">
+                    <a href="http://validator.w3.org/check?uri=referer"><img
+                                                                             src="http://www.w3.org/Icons/valid-xhtml10"
+                                                                             alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+                </p>
+                
+                <!--CSS Validator -->
+                <p id="footer">
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                    </a>
+                </p>
+                <br/>
+                <script type="text/javascript">
+                document.write(document.lastModified);
+                </script>
+            </p>
+        </div>
+        
+        
+    </div>
+
+</body><!--Closes the body tag-->
+
+</html><!--Closes the webpage-->

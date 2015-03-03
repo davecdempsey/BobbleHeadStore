@@ -1,0 +1,115 @@
+body{
+background-color:#eee;
+}
+
+#container{
+width:80%;
+
+}
+
+#containerHome{
+    width:20%;
+}
+
+#header{
+width:100%;
+background-color:#ddd;
+}
+
+#nav{
+background-color:#ddd;
+
+}
+#navItem{
+padding:0.5em;
+}
+
+#navItem li{
+
+    display:inline;
+    padding:2em;
+    color:red;
+    font-size:1.1em;
+    font-weight:bold;
+    color:black;
+
+}
+
+#creditPage{
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    font-size:1.1em;
+    color:black;
+}
+
+#shippingPage{
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    font-size:1.1em;
+    color:black;
+}
+
+
+#navItem li:hover{
+color:grey;
+cursor:pointer;
+}
+
+.listItem{
+background-image:url();
+
+}
+
+
+#navItem li.cart{
+color:red;
+}
+
+#content img {
+float:left;
+padding:0 2em 2em 0;
+
+}
+
+
+.leftmargin{
+margin-left:2em;
+}
+
+#item img{
+float:left;
+clear: left;
+padding:0 2em 2em 0;
+}
+
+
+#item1 p{
+width:70%;
+position: relative;
+
+}
+.clear{
+clear:both;
+}
+
+#footer{
+background-color:grey;
+line-height:2em;
+
+}
+
+#homeList{
+    text-decoration: none;
+    font-size: x-large;
+}
+#HomeHeader{
+    font-size: xx-large;
+}
+#HomeInformation{
+    position: absolute;
+    width: 40%;
+    top: 40%;
+    right: 35%;
+}
